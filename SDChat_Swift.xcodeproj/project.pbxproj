@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3221A31F371D8D004F0EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221A21F371D8D004F0EDB /* AppDelegate.swift */; };
+		EF3221A51F371D8D004F0EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221A41F371D8D004F0EDB /* ViewController.swift */; };
+		EF3221A81F371D8D004F0EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3221A61F371D8D004F0EDB /* Main.storyboard */; };
+		EF3221AA1F371D8D004F0EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3221A91F371D8D004F0EDB /* Assets.xcassets */; };
+		EF3221AD1F371D8D004F0EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3221AB1F371D8D004F0EDB /* LaunchScreen.storyboard */; };
+		EF3221B81F371D8D004F0EDB /* SDChat_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221B71F371D8D004F0EDB /* SDChat_SwiftTests.swift */; };
+		EF3221C31F371D8D004F0EDB /* SDChat_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221C21F371D8D004F0EDB /* SDChat_SwiftUITests.swift */; };
+		EF3221D11F371F88004F0EDB /* SDChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221D01F371F88004F0EDB /* SDChatListViewController.swift */; };
+		EF3221D31F371FAF004F0EDB /* SDChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221D21F371FAF004F0EDB /* SDChatViewController.swift */; };
+		EF3221D51F375534004F0EDB /* SDChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221D41F375534004F0EDB /* SDChatListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF3221B41F371D8D004F0EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3221971F371D8D004F0EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32219E1F371D8D004F0EDB;
+			remoteInfo = SDChat_Swift;
+		};
+		EF3221BF1F371D8D004F0EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3221971F371D8D004F0EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32219E1F371D8D004F0EDB;
+			remoteInfo = SDChat_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF32219F1F371D8D004F0EDB /* SDChat_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDChat_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3221A21F371D8D004F0EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF3221A41F371D8D004F0EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF3221A71F371D8D004F0EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3221A91F371D8D004F0EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3221AC1F371D8D004F0EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3221AE1F371D8D004F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3221B31F371D8D004F0EDB /* SDChat_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDChat_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3221B71F371D8D004F0EDB /* SDChat_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChat_SwiftTests.swift; sourceTree = "<group>"; };
+		EF3221B91F371D8D004F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3221BE1F371D8D004F0EDB /* SDChat_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDChat_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3221C21F371D8D004F0EDB /* SDChat_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChat_SwiftUITests.swift; sourceTree = "<group>"; };
+		EF3221C41F371D8D004F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3221D01F371F88004F0EDB /* SDChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatListViewController.swift; sourceTree = "<group>"; };
+		EF3221D21F371FAF004F0EDB /* SDChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatViewController.swift; sourceTree = "<group>"; };
+		EF3221D41F375534004F0EDB /* SDChatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF32219C1F371D8D004F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3221B01F371D8D004F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3221BB1F371D8D004F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3221961F371D8D004F0EDB = {
+			isa = PBXGroup;
+			children = (
+				EF3221A11F371D8D004F0EDB /* SDChat_Swift */,
+				EF3221B61F371D8D004F0EDB /* SDChat_SwiftTests */,
+				EF3221C11F371D8D004F0EDB /* SDChat_SwiftUITests */,
+				EF3221A01F371D8D004F0EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3221A01F371D8D004F0EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF32219F1F371D8D004F0EDB /* SDChat_Swift.app */,
+				EF3221B31F371D8D004F0EDB /* SDChat_SwiftTests.xctest */,
+				EF3221BE1F371D8D004F0EDB /* SDChat_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3221A11F371D8D004F0EDB /* SDChat_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EF3221A21F371D8D004F0EDB /* AppDelegate.swift */,
+				EF3221A41F371D8D004F0EDB /* ViewController.swift */,
+				EF3221D01F371F88004F0EDB /* SDChatListViewController.swift */,
+				EF3221D21F371FAF004F0EDB /* SDChatViewController.swift */,
+				EF3221D41F375534004F0EDB /* SDChatListTableViewCell.swift */,
+				EF3221A61F371D8D004F0EDB /* Main.storyboard */,
+				EF3221A91F371D8D004F0EDB /* Assets.xcassets */,
+				EF3221AB1F371D8D004F0EDB /* LaunchScreen.storyboard */,
+				EF3221AE1F371D8D004F0EDB /* Info.plist */,
+			);
+			path = SDChat_Swift;
+			sourceTree = "<group>";
+		};
+		EF3221B61F371D8D004F0EDB /* SDChat_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3221B71F371D8D004F0EDB /* SDChat_SwiftTests.swift */,
+				EF3221B91F371D8D004F0EDB /* Info.plist */,
+			);
+			path = SDChat_SwiftTests;
+			sourceTree = "<group>";
+		};
+		EF3221C11F371D8D004F0EDB /* SDChat_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3221C21F371D8D004F0EDB /* SDChat_SwiftUITests.swift */,
+				EF3221C41F371D8D004F0EDB /* Info.plist */,
+			);
+			path = SDChat_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF32219E1F371D8D004F0EDB /* SDChat_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3221C71F371D8D004F0EDB /* Build configuration list for PBXNativeTarget "SDChat_Swift" */;
+			buildPhases = (
+				EF32219B1F371D8D004F0EDB /* Sources */,
+				EF32219C1F371D8D004F0EDB /* Frameworks */,
+				EF32219D1F371D8D004F0EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDChat_Swift;
+			productName = SDChat_Swift;
+			productReference = EF32219F1F371D8D004F0EDB /* SDChat_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF3221B21F371D8D004F0EDB /* SDChat_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3221CA1F371D8D004F0EDB /* Build configuration list for PBXNativeTarget "SDChat_SwiftTests" */;
+			buildPhases = (
+				EF3221AF1F371D8D004F0EDB /* Sources */,
+				EF3221B01F371D8D004F0EDB /* Frameworks */,
+				EF3221B11F371D8D004F0EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3221B51F371D8D004F0EDB /* PBXTargetDependency */,
+			);
+			name = SDChat_SwiftTests;
+			productName = SDChat_SwiftTests;
+			productReference = EF3221B31F371D8D004F0EDB /* SDChat_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF3221BD1F371D8D004F0EDB /* SDChat_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3221CD1F371D8D004F0EDB /* Build configuration list for PBXNativeTarget "SDChat_SwiftUITests" */;
+			buildPhases = (
+				EF3221BA1F371D8D004F0EDB /* Sources */,
+				EF3221BB1F371D8D004F0EDB /* Frameworks */,
+				EF3221BC1F371D8D004F0EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3221C01F371D8D004F0EDB /* PBXTargetDependency */,
+			);
+			name = SDChat_SwiftUITests;
+			productName = SDChat_SwiftUITests;
+			productReference = EF3221BE1F371D8D004F0EDB /* SDChat_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3221971F371D8D004F0EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SD;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = slowdony;
+				TargetAttributes = {
+					EF32219E1F371D8D004F0EDB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EF3221B21F371D8D004F0EDB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF32219E1F371D8D004F0EDB;
+					};
+					EF3221BD1F371D8D004F0EDB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF32219E1F371D8D004F0EDB;
+					};
+				};
+			};
+			buildConfigurationList = EF32219A1F371D8D004F0EDB /* Build configuration list for PBXProject "SDChat_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3221961F371D8D004F0EDB;
+			productRefGroup = EF3221A01F371D8D004F0EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF32219E1F371D8D004F0EDB /* SDChat_Swift */,
+				EF3221B21F371D8D004F0EDB /* SDChat_SwiftTests */,
+				EF3221BD1F371D8D004F0EDB /* SDChat_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF32219D1F371D8D004F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3221AD1F371D8D004F0EDB /* LaunchScreen.storyboard in Resources */,
+				EF3221AA1F371D8D004F0EDB /* Assets.xcassets in Resources */,
+				EF3221A81F371D8D004F0EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3221B11F371D8D004F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3221BC1F371D8D004F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF32219B1F371D8D004F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3221A51F371D8D004F0EDB /* ViewController.swift in Sources */,
+				EF3221D51F375534004F0EDB /* SDChatListTableViewCell.swift in Sources */,
+				EF3221D11F371F88004F0EDB /* SDChatListViewController.swift in Sources */,
+				EF3221A31F371D8D004F0EDB /* AppDelegate.swift in Sources */,
+				EF3221D31F371FAF004F0EDB /* SDChatViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3221AF1F371D8D004F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3221B81F371D8D004F0EDB /* SDChat_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3221BA1F371D8D004F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3221C31F371D8D004F0EDB /* SDChat_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF3221B51F371D8D004F0EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32219E1F371D8D004F0EDB /* SDChat_Swift */;
+			targetProxy = EF3221B41F371D8D004F0EDB /* PBXContainerItemProxy */;
+		};
+		EF3221C01F371D8D004F0EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32219E1F371D8D004F0EDB /* SDChat_Swift */;
+			targetProxy = EF3221BF1F371D8D004F0EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF3221A61F371D8D004F0EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3221A71F371D8D004F0EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3221AB1F371D8D004F0EDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3221AC1F371D8D004F0EDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3221C51F371D8D004F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF3221C61F371D8D004F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3221C81F371D8D004F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDChat_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDChat-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF3221C91F371D8D004F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDChat_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDChat-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF3221CB1F371D8D004F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SDChat_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDChat-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDChat_Swift.app/SDChat_Swift";
+			};
+			name = Debug;
+		};
+		EF3221CC1F371D8D004F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SDChat_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDChat-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDChat_Swift.app/SDChat_Swift";
+			};
+			name = Release;
+		};
+		EF3221CE1F371D8D004F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SDChat_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDChat-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SDChat_Swift;
+			};
+			name = Debug;
+		};
+		EF3221CF1F371D8D004F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SDChat_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDChat-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SDChat_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF32219A1F371D8D004F0EDB /* Build configuration list for PBXProject "SDChat_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3221C51F371D8D004F0EDB /* Debug */,
+				EF3221C61F371D8D004F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3221C71F371D8D004F0EDB /* Build configuration list for PBXNativeTarget "SDChat_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3221C81F371D8D004F0EDB /* Debug */,
+				EF3221C91F371D8D004F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF3221CA1F371D8D004F0EDB /* Build configuration list for PBXNativeTarget "SDChat_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3221CB1F371D8D004F0EDB /* Debug */,
+				EF3221CC1F371D8D004F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF3221CD1F371D8D004F0EDB /* Build configuration list for PBXNativeTarget "SDChat_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3221CE1F371D8D004F0EDB /* Debug */,
+				EF3221CF1F371D8D004F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3221971F371D8D004F0EDB /* Project object */;
+}
