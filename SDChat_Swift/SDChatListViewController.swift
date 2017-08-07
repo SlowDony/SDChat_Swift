@@ -40,6 +40,7 @@ class SDChatListViewController: UIViewController, UITableViewDelegate, UITableVi
         tableView.delegate=self
         tableView.dataSource = self
         tableView.tableFooterView = UIView()
+        tableView.register(SDChatListTableViewCell.self, forCellReuseIdentifier: "cellid")
         self.view .addSubview(tableView)
         
     }
@@ -48,9 +49,11 @@ class SDChatListViewController: UIViewController, UITableViewDelegate, UITableVi
         return 19
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = "韦丹妮最漂亮"
-        cell.textLabel?.textColor = UIColor.black
+        
+        let cell = SDChatListTableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cellid")
+
+        cell.titleLab.text = "韦丹妮最漂亮"
+        cell.detailLab.text = "haha"
         return cell
         
     }
