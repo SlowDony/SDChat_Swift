@@ -52,7 +52,7 @@ class SDChatListViewController: UIViewController, UITableViewDelegate, UITableVi
         
         let cell = SDChatListTableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cellid")
 
-        cell.titleLab.text = "韦丹妮最漂亮"
+        cell.titleLab.text = "韦丹妮最性感最有智慧"
         cell.detailLab.text = "haha"
         return cell
         
@@ -63,6 +63,9 @@ class SDChatListViewController: UIViewController, UITableViewDelegate, UITableVi
         navigationController?.pushViewController(sdvc, animated: true)
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 70
+    }
     /*
     // MARK: - Navigation
 

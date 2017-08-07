@@ -11,7 +11,7 @@ import UIKit
 class SDChatListTableViewCell: UITableViewCell {
     let titleLab = UILabel()
     let detailLab = UILabel()
-    
+    let headImage = UIImageView()
     
     
     override func awakeFromNib() {
@@ -33,18 +33,31 @@ class SDChatListTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self .setUI()
     }
+    
     func setUI() {
-        titleLab.frame = CGRect.init(x: 0, y: 0, width: 300, height: 20)
-        titleLab.backgroundColor = UIColor.red
+        titleLab.frame = CGRect.init(x: 80, y: 20, width: 300, height: 20)
+        titleLab.backgroundColor = UIColor.clear
+        titleLab.textColor = UIColor.black
         titleLab.font = UIFont.systemFont(ofSize: 15)
-        titleLab.textColor = UIColor.white
         
-        detailLab.frame = CGRect.init(x: 0, y: 20, width: 300, height: 20)
-        detailLab.backgroundColor = UIColor.blue
+        
+        detailLab.frame = CGRect.init(x: 80, y: 40, width: 300, height: 20)
+        detailLab.backgroundColor = UIColor.clear
         detailLab.font = UIFont.systemFont(ofSize: 12)
-        detailLab.textColor = UIColor.white
+        detailLab.textColor = UIColor.gray
+        
+        
+        let myimage = UIImage.init(named: "chatHead")
+        headImage.frame = CGRect.init(x: 20, y: (70-50)/2 , width: 50, height: 50)
+        
+        headImage.layer.cornerRadius = 25
+        headImage.layer.masksToBounds = true
+        
+        headImage.image = myimage
+        
         self .addSubview(titleLab)
         self .addSubview(detailLab)
+        self .addSubview(headImage)
         
     }
 
