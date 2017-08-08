@@ -36,7 +36,7 @@ class SDChatListViewController: UIViewController, UITableViewDelegate, UITableVi
     func setUI() {
         
         let tableView = UITableView(frame:view.frame)
-        tableView.backgroundColor = UIColor.green
+        tableView.backgroundColor = UIColor.clear
         tableView.delegate=self
         tableView.dataSource = self
         tableView.tableFooterView = UIView()
@@ -54,12 +54,16 @@ class SDChatListViewController: UIViewController, UITableViewDelegate, UITableVi
 
         cell.titleLab.text = "韦丹妮最性感最有智慧"
         cell.detailLab.text = "haha"
+        cell.timeLab.text = "2017-09-09"
         return cell
         
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
         let sdvc = SDChatViewController()
+        
         navigationController?.pushViewController(sdvc, animated: true)
     }
     

@@ -12,7 +12,7 @@ class SDChatListTableViewCell: UITableViewCell {
     let titleLab = UILabel()
     let detailLab = UILabel()
     let headImage = UIImageView()
-    
+    let timeLab = UILabel()
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -35,6 +35,7 @@ class SDChatListTableViewCell: UITableViewCell {
     }
     
     func setUI() {
+        
         titleLab.frame = CGRect.init(x: 80, y: 20, width: 300, height: 20)
         titleLab.backgroundColor = UIColor.clear
         titleLab.textColor = UIColor.black
@@ -47,17 +48,22 @@ class SDChatListTableViewCell: UITableViewCell {
         detailLab.textColor = UIColor.gray
         
         
-        let myimage = UIImage.init(named: "chatHead")
-        headImage.frame = CGRect.init(x: 20, y: (70-50)/2 , width: 50, height: 50)
         
+        headImage.frame = CGRect.init(x: 20, y: (70-50)/2 , width: 50, height: 50)
         headImage.layer.cornerRadius = 25
         headImage.layer.masksToBounds = true
+        headImage.image = UIImage.init(named: "chatHead")
         
-        headImage.image = myimage
+        let with  = UIScreen.main.bounds.size.width
+        timeLab.frame = CGRect.init(x: 100, y: 20, width:with-100-20 , height: 20)
+        timeLab.font = UIFont.systemFont(ofSize: 10)
+        timeLab.textAlignment = NSTextAlignment.right
+        timeLab.textColor = UIColor.gray
         
         self .addSubview(titleLab)
         self .addSubview(detailLab)
         self .addSubview(headImage)
+        self.addSubview(timeLab)
         
     }
 
