@@ -17,6 +17,8 @@
 		EF3221D11F371F88004F0EDB /* SDChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221D01F371F88004F0EDB /* SDChatListViewController.swift */; };
 		EF3221D31F371FAF004F0EDB /* SDChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221D21F371FAF004F0EDB /* SDChatViewController.swift */; };
 		EF3221D51F375534004F0EDB /* SDChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3221D41F375534004F0EDB /* SDChatListTableViewCell.swift */; };
+		EF6037F11F3C9EA900485F5D /* SDChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6037F01F3C9EA900485F5D /* SDChat.swift */; };
+		EF6B01C61F3CAB17004BF1BD /* SDChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01C51F3CAB17004BF1BD /* SDChatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		EF3221D01F371F88004F0EDB /* SDChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatListViewController.swift; sourceTree = "<group>"; };
 		EF3221D21F371FAF004F0EDB /* SDChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatViewController.swift; sourceTree = "<group>"; };
 		EF3221D41F375534004F0EDB /* SDChatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatListTableViewCell.swift; sourceTree = "<group>"; };
+		EF6037F01F3C9EA900485F5D /* SDChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChat.swift; sourceTree = "<group>"; };
+		EF6B01C51F3CAB17004BF1BD /* SDChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +111,9 @@
 				EF3221A41F371D8D004F0EDB /* ViewController.swift */,
 				EF3221D01F371F88004F0EDB /* SDChatListViewController.swift */,
 				EF3221D21F371FAF004F0EDB /* SDChatViewController.swift */,
+				EF6037F01F3C9EA900485F5D /* SDChat.swift */,
 				EF3221D41F375534004F0EDB /* SDChatListTableViewCell.swift */,
+				EF6B01C51F3CAB17004BF1BD /* SDChatTableViewCell.swift */,
 				EF3221A61F371D8D004F0EDB /* Main.storyboard */,
 				EF3221A91F371D8D004F0EDB /* Assets.xcassets */,
 				EF3221AB1F371D8D004F0EDB /* LaunchScreen.storyboard */,
@@ -270,9 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF3221A51F371D8D004F0EDB /* ViewController.swift in Sources */,
+				EF6B01C61F3CAB17004BF1BD /* SDChatTableViewCell.swift in Sources */,
 				EF3221D51F375534004F0EDB /* SDChatListTableViewCell.swift in Sources */,
 				EF3221D11F371F88004F0EDB /* SDChatListViewController.swift in Sources */,
 				EF3221A31F371D8D004F0EDB /* AppDelegate.swift in Sources */,
+				EF6037F11F3C9EA900485F5D /* SDChat.swift in Sources */,
 				EF3221D31F371FAF004F0EDB /* SDChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +526,7 @@
 				EF3221C91F371D8D004F0EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3221CA1F371D8D004F0EDB /* Build configuration list for PBXNativeTarget "SDChat_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +535,7 @@
 				EF3221CC1F371D8D004F0EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3221CD1F371D8D004F0EDB /* Build configuration list for PBXNativeTarget "SDChat_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +544,7 @@
 				EF3221CF1F371D8D004F0EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -46,13 +46,13 @@ class SDChatListViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 19
+        return 2
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = SDChatListTableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cellid")
-
-        cell.titleLab.text = "韦丹妮最性感最有智慧"
+        
+        cell.titleLab.text = "dany最性感最有智慧"
         cell.detailLab.text = "haha"
         cell.timeLab.text = "2017-09-09"
         return cell

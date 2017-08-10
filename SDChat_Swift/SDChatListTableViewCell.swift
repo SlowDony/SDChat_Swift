@@ -66,5 +66,7 @@ class SDChatListTableViewCell: UITableViewCell {
         self.addSubview(timeLab)
         
     }
+    
+    
 
 }
